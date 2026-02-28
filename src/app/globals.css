@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-darkblue: #0d1b2a;
+  --color-darkblue-50: #415973;
+  --color-darkblue-100: #374E5F;
+  --color-darkblue-200: #2D424B;
+  --color-darkblue-300: #233637;
+  --color-darkblue-400: #192A23;
+  --color-darkblue-500: #0d1b2a;
+  --color-darkblue-600: #0B1521;
+  --color-orange: #e87c3e;
+  --color-orange-50: #FAEDD7;
+  --color-orange-100: #F8E5C9;
+  --color-orange-200: #F5D5AD;
+  --color-orange-300: #F2C591;
+  --color-orange-400: #EFB575;
+  --color-orange-500: #e87c3e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0d1b2a;
+  color: #ffffff;
+}
+
+/* Micro-interactions */
+.card-hover {
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(232, 124, 62, 0.1);
+}
+
+/* Premium input focus */
+input:focus {
+  outline: none;
+  border-color: var(--color-orange) !important;
+  box-shadow: 0 0 0 3px rgba(232, 124, 62, 0.15);
+}
+
+/* Uppercase label styling */
+.label-uppercase {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Gradient glow for sample preview */
+.sample-glow {
+  position: relative;
+}
+.sample-glow::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, rgba(232, 124, 62, 0.3), transparent 40%, transparent 60%, rgba(232, 124, 62, 0.15));
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.sample-glow:hover::before {
+  opacity: 1;
+}
