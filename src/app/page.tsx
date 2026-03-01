@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import ExitIntentPopup from "../components/ExitIntentPopup";
 
 /* ── Freight/Logistics SVG Icons ── */
 const IconTruck = () => (
@@ -340,6 +341,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ExitIntentPopup />
     </>
   );
 }
