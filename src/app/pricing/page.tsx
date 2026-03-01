@@ -135,6 +135,25 @@ export default function PricingPage() {
         <p className="text-muted-dim text-sm mt-8">
           All paid plans include a 14-day free trial. Cancel anytime.
         </p>
+
+        {/* Sample Analysis */}
+        <div className="mt-16 mb-8">
+          <h3 className="text-xl font-semibold text-center mb-6">See sample analysis from our team</h3>
+          <div className="grid md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+            <Link href="/blog/freight-rate-trends-2026" className="block p-4 rounded-lg border border-orange/20 hover:border-orange/40 transition-all text-center">
+              <span className="text-orange text-sm font-medium">Freight Rate Trends 2026</span>
+              <span className="block text-gray-400 text-xs mt-1">Read analysis →</span>
+            </Link>
+            <Link href="/blog/spot-vs-contract-rates-trucking" className="block p-4 rounded-lg border border-orange/20 hover:border-orange/40 transition-all text-center">
+              <span className="text-orange text-sm font-medium">Spot vs Contract Rates Guide</span>
+              <span className="block text-gray-400 text-xs mt-1">Read analysis →</span>
+            </Link>
+            <Link href="/blog/how-to-reduce-freight-costs" className="block p-4 rounded-lg border border-orange/20 hover:border-orange/40 transition-all text-center">
+              <span className="text-orange text-sm font-medium">How to Reduce Freight Costs</span>
+              <span className="block text-gray-400 text-xs mt-1">Read analysis →</span>
+            </Link>
+          </div>
+        </div>
       </div>
     </section>
   );

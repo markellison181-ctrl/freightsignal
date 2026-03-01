@@ -211,6 +211,23 @@ export default function SpotVsContractPost() {
           </div>
         </div>
       </article>
+    
+      {/* Related Articles */}
+      <section className="max-w-4xl mx-auto px-6 pb-16">
+        <div className="border-t border-orange/20 pt-12">
+          <h3 className="text-2xl font-bold mb-6">Related Articles</h3>
+          <div className="space-y-3">
+                <Link href="/blog/freight-rate-trends-2026" className="block p-4 rounded-lg border border-orange/20 hover:border-orange/40 hover:bg-orange/5 transition-all">
+                  <span className="text-orange text-sm font-medium">→</span>
+                  <span className="ml-2 text-gray-200 hover:text-white">Freight Rate Trends 2026: What Shippers Need to Know</span>
+                </Link>
+                <Link href="/blog/how-to-reduce-freight-costs" className="block p-4 rounded-lg border border-orange/20 hover:border-orange/40 hover:bg-orange/5 transition-all">
+                  <span className="text-orange text-sm font-medium">→</span>
+                  <span className="ml-2 text-gray-200 hover:text-white">How to Reduce Freight Costs: Proven Strategies</span>
+                </Link>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
