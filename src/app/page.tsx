@@ -127,7 +127,7 @@ export default function Home() {
             </p>
             <div id="subscribe">
               <SubscribeForm />
-              <p className="text-gray-500 text-xs mt-4">
+              <p className="text-muted-dim text-xs mt-4">
                 Free weekly digest. No spam. Unsubscribe anytime.
               </p>
             </div>
@@ -138,7 +138,7 @@ export default function Home() {
       {/* Trust Signal */}
       <section className="py-10 bg-darkblue-500 border-y border-darkblue-50/10">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-gray-400 text-sm leading-relaxed">
+          <p className="text-muted text-sm leading-relaxed">
             Built for freight brokers, shippers, logistics companies, and fleet operators who need rate intelligence first.
           </p>
         </div>
@@ -151,7 +151,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
               Every issue delivers <span className="text-orange">five critical signals</span>
             </h2>
-            <p className="text-gray-400 max-w-2xl mx-auto">
+            <p className="text-muted max-w-2xl mx-auto">
               No fluff, no filler. Each edition of FreightSignal is structured to give you
               the freight intelligence that matters in 5 minutes or less.
             </p>
@@ -193,7 +193,7 @@ export default function Home() {
               <div key={i} className="card-hover bg-darkblue-500/50 border border-darkblue-50/20 rounded-lg p-6 hover:border-orange/30">
                 <div className="text-orange mb-3">{item.icon}</div>
                 <h3 className="text-lg font-semibold mb-2 tracking-tight">{item.title}</h3>
-                <p className="text-gray-400 text-sm leading-relaxed">{item.description}</p>
+                <p className="text-muted text-sm leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
@@ -205,7 +205,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 tracking-tight">See what you'll get</h2>
-            <p className="text-gray-400">Read a real issue of FreightSignal</p>
+            <p className="text-muted">Read a real issue of FreightSignal</p>
           </div>
           <div className="max-w-3xl mx-auto sample-glow">
             <div className="bg-darkblue border border-darkblue-50/30 rounded-xl overflow-hidden">
@@ -216,7 +216,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-white font-semibold text-sm">FreightSignal Weekly</div>
-                    <div className="text-gray-500 text-xs">Issue #1 — February 28, 2026</div>
+                    <div className="text-muted-dim text-xs">Issue #1 — February 28, 2026</div>
                   </div>
                 </div>
               </div>
@@ -224,7 +224,7 @@ export default function Home() {
                 <div>
                   <div className="text-orange label-uppercase mb-1">Rate Alert of the Week</div>
                   <h3 className="text-lg font-bold tracking-tight">Outbound LA Rates Spike 18% as Port Congestion Worsens</h3>
-                  <p className="text-gray-400 text-sm mt-2 leading-relaxed">
+                  <p className="text-muted text-sm mt-2 leading-relaxed">
                     Los Angeles to Chicago dry van rates hit $2.85/mile (+18% WoW) as port congestion and chassis shortages 
                     create capacity constraints. Import surge from Chinese New Year backlog driving exceptional demand...
                   </p>
@@ -269,15 +269,15 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-4 tracking-tight">
             Start free. Upgrade when you need more.
           </h2>
-          <p className="text-gray-400 mb-12 max-w-2xl mx-auto">
+          <p className="text-muted mb-12 max-w-2xl mx-auto">
             The free weekly edition gives you the essential signals. Pro and Enterprise unlock
             daily alerts, full rate access, and team features.
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <div className="card-hover bg-gradient-to-b from-darkblue-500/80 to-darkblue-500/40 border border-darkblue-50/30 rounded-xl p-8">
-              <div className="text-gray-400 label-uppercase mb-2">Free</div>
+              <div className="text-muted label-uppercase mb-2">Free</div>
               <div className="text-4xl font-bold mb-1">$0</div>
-              <div className="text-gray-500 text-sm mb-6">forever</div>
+              <div className="text-muted-dim text-sm mb-6">forever</div>
               <ul className="space-y-3 text-sm text-gray-300 text-left mb-8">
                 <li className="flex items-start gap-2"><IconCheck /> Weekly digest every Wednesday</li>
                 <li className="flex items-start gap-2"><IconCheck /> Rate Alert of the Week</li>
@@ -294,7 +294,7 @@ export default function Home() {
               </div>
               <div className="text-orange label-uppercase mb-2">Pro</div>
               <div className="text-4xl font-bold mb-1">$29</div>
-              <div className="text-gray-500 text-sm mb-6">per month</div>
+              <div className="text-muted-dim text-sm mb-6">per month</div>
               <ul className="space-y-3 text-sm text-gray-300 text-left mb-8">
                 <li className="flex items-start gap-2"><IconCheck /> Everything in Free</li>
                 <li className="flex items-start gap-2"><IconCheck /> Daily rate alerts</li>
@@ -307,9 +307,9 @@ export default function Home() {
               </Link>
             </div>
             <div className="card-hover bg-gradient-to-b from-darkblue-500/80 to-darkblue-500/40 border border-darkblue-50/30 rounded-xl p-8">
-              <div className="text-gray-400 label-uppercase mb-2">Enterprise</div>
+              <div className="text-muted label-uppercase mb-2">Enterprise</div>
               <div className="text-4xl font-bold mb-1">$99</div>
-              <div className="text-gray-500 text-sm mb-6">per month</div>
+              <div className="text-muted-dim text-sm mb-6">per month</div>
               <ul className="space-y-3 text-sm text-gray-300 text-left mb-8">
                 <li className="flex items-start gap-2"><IconCheck /> Everything in Pro</li>
                 <li className="flex items-start gap-2"><IconCheck /> Up to 10 team seats</li>
@@ -331,7 +331,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-4 tracking-tight">
             Freight rates change fast.
           </h2>
-          <p className="text-gray-400 mb-8">
+          <p className="text-muted mb-8">
             Join the brokers, shippers, and logistics pros who start every week
             with FreightSignal intelligence.
           </p>
