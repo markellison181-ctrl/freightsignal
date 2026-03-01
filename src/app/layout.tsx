@@ -9,18 +9,27 @@ export const metadata: Metadata = {
   title: "FreightSignal — Freight & Supply Chain Intelligence",
   description:
     "Daily intelligence on freight rates, capacity, and supply chain trends across US transportation markets. Built for freight brokers, shippers, and logistics companies.",
+  metadataBase: new URL("https://freightsignal.io"),
+  alternates: { canonical: "https://freightsignal.io" },
+  authors: [{ name: "SignalStack Media" }],
+  creator: "SignalStack Media",
+  publisher: "SignalStack Media",
   openGraph: {
     title: "FreightSignal — Freight & Supply Chain Intelligence",
     description:
       "Daily intelligence on freight rates, capacity, and supply chain trends across US transportation markets.",
     type: "website",
     url: "https://freightsignal.io",
+    siteName: "FreightSignal",
+    locale: "en_US",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "FreightSignal - Freight & Supply Chain Intelligence" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "FreightSignal — Freight & Supply Chain Intelligence", 
     description:
       "Daily intelligence on freight rates, capacity, and supply chain trends across US transportation markets.",
+    images: ["/og-image.png"],
   },
 };
 
