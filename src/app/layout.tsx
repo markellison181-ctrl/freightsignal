@@ -123,6 +123,40 @@ function Footer() {
   );
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://freightsignal.io/#organization",
+      name: "SignalStack Media LLC",
+      url: "https://signalstackmedia.com",
+      logo: "https://freightsignal.io/og-image.png",
+      sameAs: ["https://x.com/SignalStackHQ"],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://freightsignal.io/#website",
+      url: "https://freightsignal.io",
+      name: "FreightSignal",
+      publisher: { "@id": "https://freightsignal.io/#organization" },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://freightsignal.io/blog?q={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "Periodical",
+      name: "FreightSignal Newsletter",
+      url: "https://freightsignal.io",
+      publisher: { "@id": "https://freightsignal.io/#organization" },
+      description: "Daily intelligence on freight rates, capacity, and supply chain trends across US transportation markets.",
+      isAccessibleForFree: true,
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -130,6 +164,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={`${inter.className} bg-darkblue text-white antialiased`}>
         <Header />
         <main>{children}</main>
