@@ -57,7 +57,7 @@ export default function ReduceFreightCostsPost() {
           </p>
 
           <p className="text-gray-300 leading-relaxed text-lg">
-            The good news: most companies are leaving significant money on the table. Through our work with hundreds of shippers, we&apos;ve identified that the average company can reduce freight costs by <strong className="text-orange">10-25%</strong> without degrading service levels — often while improving them. Here are the strategies that deliver the biggest impact.
+            The good news: most companies are leaving significant money on the table. Through our work with hundreds of shippers, we&apos;ve identified that the average company can reduce freight costs by <strong className="text-orange">10-25%</strong> without degrading service levels — often while improving them. Here are the strategies that deliver the biggest impact. Understanding the current market is essential — start with our <Link href="/blog/freight-rate-trends-2026" className="text-orange underline hover:text-orange-300">2026 freight rate trends</Link> analysis and learn the difference between <Link href="/blog/spot-vs-contract-rates-trucking" className="text-orange underline hover:text-orange-300">spot and contract rates</Link> to optimize your procurement.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Strategy #1: Conduct a Freight Audit (Find the Hidden Leaks)</h2>

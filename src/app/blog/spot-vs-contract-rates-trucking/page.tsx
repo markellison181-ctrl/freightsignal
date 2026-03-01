@@ -129,7 +129,7 @@ export default function SpotVsContractPost() {
           </div>
 
           <p className="text-gray-300 leading-relaxed text-lg">
-            As of early 2026, we&apos;re in <strong className="text-orange">late Phase 1 / early Phase 2</strong>. Spot rates have been rising since mid-2025 and are now approaching contract rate levels. The 2026 bid season will see contract rate increases of 5-10% as shippers adjust to the tightening market.
+            As of early 2026, we&apos;re in <strong className="text-orange">late Phase 1 / early Phase 2</strong>. Spot rates have been rising since mid-2025 and are now approaching contract rate levels. The 2026 bid season will see contract rate increases of 5-10% as shippers adjust to the tightening market. For the full picture, see our <Link href="/blog/freight-rate-trends-2026" className="text-orange underline hover:text-orange-300">2026 freight rate trends analysis</Link> and learn strategies to <Link href="/blog/how-to-reduce-freight-costs" className="text-orange underline hover:text-orange-300">reduce your freight costs</Link> regardless of market conditions.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">The Spot-Contract Spread: Your Market Indicator</h2>

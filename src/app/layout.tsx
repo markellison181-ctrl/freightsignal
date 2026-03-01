@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import MobileNav from "./MobileNav";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -64,6 +65,7 @@ function Header() {
             Subscribe Free
           </Link>
         </nav>
+        <MobileNav />
       </div>
     </header>
   );
@@ -167,6 +169,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script defer data-domain="freightsignal.io" src="https://plausible.io/js/script.js" />
         <link rel="dns-prefetch" href="https://js.stripe.com" />
         <link rel="dns-prefetch" href="https://signalstackmedia.com" />
         <script

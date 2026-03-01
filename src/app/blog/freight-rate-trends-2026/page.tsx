@@ -59,7 +59,7 @@ export default function FreightRateTrendsPost() {
           </p>
 
           <p className="text-gray-300 leading-relaxed text-lg">
-            According to DAT Freight & Analytics, the national average dry van spot rate entering 2026 is approximately <strong className="text-orange">$2.58 per mile</strong> (including fuel surcharge), up 8.2% year-over-year. Contract rates, which lag spot by 3-6 months, are averaging $2.72/mile, reflecting the rate increases carriers secured during 2025 bid season.
+            According to DAT Freight & Analytics, the national average dry van spot rate entering 2026 is approximately <strong className="text-orange">$2.58 per mile</strong> (including fuel surcharge), up 8.2% year-over-year. Contract rates, which lag spot by 3-6 months, are averaging $2.72/mile, reflecting the rate increases carriers secured during 2025 bid season. For a deeper dive into the dynamics between these pricing models, read our <Link href="/blog/spot-vs-contract-rates-trucking" className="text-orange underline hover:text-orange-300">spot vs. contract rates guide</Link>.
           </p>
 
           <p className="text-gray-300 leading-relaxed text-lg">
@@ -144,7 +144,7 @@ export default function FreightRateTrendsPost() {
           <div className="bg-darkblue-500/50 border border-orange/20 rounded-xl p-6 my-8 not-prose">
             <h3 className="text-xl font-bold text-orange mb-4">2026 Shipper Action Plan</h3>
             <div className="space-y-3 text-gray-300">
-              <div className="flex items-start gap-3"><span className="text-orange">1.</span> <strong className="text-white">Lock contract rates early.</strong> If your RFP/bid season is approaching, don&apos;t wait. Rates are rising, and carriers will demand higher prices as the year progresses.</div>
+              <div className="flex items-start gap-3"><span className="text-orange">1.</span> <strong className="text-white">Lock contract rates early.</strong> If your RFP/bid season is approaching, don&apos;t wait. Rates are rising, and carriers will demand higher prices as the year progresses. See our full guide on <Link href="/blog/how-to-reduce-freight-costs" className="text-orange underline hover:text-orange-300">reducing freight costs</Link> for more strategies.</div>
               <div className="flex items-start gap-3"><span className="text-orange">2.</span> <strong className="text-white">Diversify your carrier base.</strong> Don&apos;t rely on 2-3 carriers. Build relationships with 8-12 carriers across your network to ensure capacity access during tight periods.</div>
               <div className="flex items-start gap-3"><span className="text-orange">3.</span> <strong className="text-white">Explore intermodal.</strong> On lanes over 750 miles, intermodal offers 15-20% savings. The service has improved dramatically — give it another look.</div>
               <div className="flex items-start gap-3"><span className="text-orange">4.</span> <strong className="text-white">Optimize your freight network.</strong> Consolidate shipments, reduce deadhead miles by offering backhaul opportunities, and improve loading efficiency.</div>
