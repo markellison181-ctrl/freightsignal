@@ -145,6 +145,23 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Lead Magnet Banner */}
+      <section className="py-8 bg-orange-600/10 border-y border-orange-500/20">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div>
+            <p className="text-sm text-orange-400 font-semibold mb-1">📊 FREE REPORT</p>
+            <p className="text-white font-bold text-lg">2026 Freight Rate Benchmarks by Lane</p>
+            <p className="text-gray-400 text-sm">Top 20 lanes, rate per mile, QoQ changes, and market signals. Unlock instantly.</p>
+          </div>
+          <Link
+            href="/reports/freight-rate-benchmarks-2026"
+            className="shrink-0 px-6 py-3 bg-orange-600 hover:bg-orange-500 text-white font-semibold rounded-lg transition text-sm"
+          >
+            Get Free Report →
+          </Link>
+        </div>
+      </section>
+
       {/* What You Get */}
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-6">
